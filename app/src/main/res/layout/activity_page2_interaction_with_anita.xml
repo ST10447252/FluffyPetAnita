@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1CBAE"
+    tools:context=".Page_2_Interaction_with_anita">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_rocket"
+        android:layout_width="410dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="489dp"
+        android:src="@drawable/cat_rocking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Progress_image_view"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="627dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/progress" />
+
+    <ImageButton
+        android:id="@+id/Back_Button"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="351dp"
+        android:layout_marginBottom="671dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="72dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="575dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hunger" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="64dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="580dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clean" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="572dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/happy" />
+
+    <ProgressBar
+        android:id="@+id/hunger_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="79dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="540dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/clean_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="80dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="539dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/happy_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="83dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="537dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pet_action_view"
+        android:layout_width="316dp"
+        android:layout_height="224dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="284dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anita_sleeping" />
+
+    <ImageButton
+        android:id="@+id/feed_button"
+        android:layout_width="117dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="31dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/feed_button"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/bath_button"
+        android:layout_width="117dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="31dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bath_button"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_pet_views"
+        android:layout_width="108dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="104dp"
+        android:src="@drawable/anitagif_sleeping"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="107dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="662dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="30dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/play_button"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/action_text"
+        android:layout_width="222dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="232dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleeping_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
