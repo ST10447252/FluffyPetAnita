@@ -20,6 +20,7 @@ class Page_3_Funeral : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        //Android Developers. (n.d.). Button. Retrieved from https://developer.android.com/develop/ui/views/components/button
         val back_button = findViewById<ImageButton>(R.id.cat_back_button)
         back_button.setOnClickListener {
             val intent = Intent(this, Page_2_Interaction_with_anita::class.java)
